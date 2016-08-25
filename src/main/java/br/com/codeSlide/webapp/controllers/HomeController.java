@@ -17,4 +17,10 @@ public class HomeController {
 		System.out.println("foi?");
 		return "home-bb";
 	}
+	
+	@RequestMapping("/bbproducoes")
+	public String home_bbproducoes(){
+		System.out.println("foi?");
+		return "BBProducoes/index";
+	}
 }
